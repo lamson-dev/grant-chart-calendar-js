@@ -1,0 +1,45 @@
+.highlight-bg {
+    background-color: rgb(38, 146, 146);
+    color: #fff;
+}
+
+.table-history {
+    /* min-width: 550px; */
+    border: 1px solid #e1e1e1;
+    border-bottom: 1px solid #ededed;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 14px;
+    line-height: 2;
+    margin: 0 0 20px;
+}
+
+.table-history th {
+    background-color: rgb(121, 121, 121);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border: 1px solid #fff;
+    padding: 6px 10px;
+    
+}
+
+.table-history tr {
+    transition: 0.2s linear;
+}
+
+.table-history td {
+    border: 1px solid #ededed;
+    color: white;
+    text-align: center;
+}
+
+.grant-bar {
+    background-color: rgb(172, 109, 50);
+}
+
+.loader {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    animation: loader_run 0.75s linear infinite;
+}
